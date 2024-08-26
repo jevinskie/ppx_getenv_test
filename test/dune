@@ -1,0 +1,4 @@
+(test
+ (name test_ppx_getenv_test)
+ (preprocess
+  (pps ppx_getenv_test)))

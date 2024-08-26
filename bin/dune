@@ -1,0 +1,5 @@
+(executable
+ (public_name ppx_getenv_test_demo)
+ (name ppx_getenv_test_demo)
+ (preprocess
+  (pps ppx_getenv_test)))

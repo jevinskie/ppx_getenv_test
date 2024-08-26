@@ -1,0 +1,7 @@
+(library
+ (public_name ppx_getenv_test)
+ (name ppx_getenv_test)
+ (kind ppx_rewriter)
+ (preprocess
+  (pps ppxlib.metaquot))
+ (libraries ppxlib ppx_getenv))
